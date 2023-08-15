@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend&family=Red+Hat+Display&display=swap');
+
+.white-bg{
+    background-color: white;
+}
+.ash-bg{
+    background-color: rgb(249,249,249);
+    /* width: 800px; */
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 1rem;
+}
+.green-button{
+    background-color: #00C881;
+}
+.blue-button{
+    background-color: #0B2653;
+}
+.lexend{
+    font-family: 'Lexend', sans-serif;
+}
+.blue-black-text{
+    color: #0B2653;
+}
+.green-text{
+    color: #00C881;
+}
+.light-text{
+    color: #51668A;
+}
+.yellow-text{
+    color: #FECD1A;
+}
+.red-hat-display{
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.blue-bg{
+    background-color: rgb(11,38,83);
+}
+.blue-bg-sub{
+    /* background-image: url(./assets/articleimg1.jpg); */
+    background-color: rgb(11,38,83);
+    min-height:30rem ;
+    background-size: cover;
+    margin-bottom: 30rem;
+}
+a{
+    text-decoration: none;
+}
+.green-circle{
+    background-image: url(./assets/greencircle.png);
+    width: 56px;
+    height: 55px;
+    transform: rotate(180deg);
+    transform: rotateX('10px');
+    background-position: center;
+    background-size: cover;
+}
+.circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-image: url(./assets/greencircle.png);
+    background-size: cover;
+}
+.circle-footer{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background-image: url(./assets/greencircle.png);
+    background-size: cover;
+}
+.header{
+    gap: 72px;
+}
+.capitalize{
+    text-transform: capitalize;
+}
+.home-img{
+    background-image: url(./assets/Homeimage.png);
+    width: 100%;
+    height: 922px;
+    background-size: cover;
+    background-position: top;
+}
+.display-grid{
+    display: grid;
+}
+.two-column-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.two-column-grid-case{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.three-column-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.four-column-grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.three-column-grid-rating{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.six-column-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+.grid-align-center{
+    align-items: center;
+}
+.vector-line{
+    border-bottom: 2px solid black;
+    width: 50px;
+}
+.home-clip{
+    clip-path: polygon(0 54%, 100% 0, 100% 100%, 0% 100%);
+    background-color:#64f4ab;
+    opacity: 0.800000011920929;
+    width: 100%;
+    height: 922px;
+}
+.portfolio-clip{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    background-color:rgb(249,249,249);
+    opacity: 0.800000011920929;
+    width: 600px;
+    height: 420px;
+    transform: rotate(8deg);
+}
+.rating-img{
+    position: absolute;
+    top: -50px;
+}
+
+.portfolio-img{
+    width: 600px;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0px;
+}
+.home-info-card{ 
+    background-color: whitesmoke;
+}
+.services-card{
+    box-shadow: #64f4ab;
+    display: grid;
+    justify-content: center;
+}
+.services-card-img{
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    justify-self: center;
+}
+.services-card:hover{
+    box-shadow: #64f4ab;
+    box-shadow: 2px 5px 20px -8px rgba(0,0,0,0.75);
+}
+.green-card{
+    box-shadow: #64f4ab;
+}
+.green-card:hover{
+    box-shadow: #64f4ab;
+    box-shadow: 2px 5px 20px -8px rgba(0,0,0,0.75);
+}
+.green-card-button{
+    box-shadow: #64f4ab;
+    color: green;
+}
+.green-card-button:hover{
+    box-shadow: #64f4ab;
+    box-shadow: 2px 5px 20px -8px rgba(0,0,0,0.75);
+    color: white;
+    background-color: blueviolet;
+}
+.space{
+    gap: 2rem;
+}
+.read-case-pos{
+    position: absolute;
+    bottom: -90px;
+    /* top: 100px; */
+    right: 45px;
+    width: 75%;
+    height: min-content;
+}
+.subscribe{
+    width: 50%;
+}
+.password-button{
+    width: 444px;
+    height: 48px;
+}
+.subscribe-button{
+    height: 48px;
+}
+.footer-space{
+    margin-bottom: 664px;
+}
+.aboutus-img{
+    width: 1312px;
+    /* height: 100%; */
+    box-shadow: -10px -8px 4px 4px #64f4ab;
+
+}
+.aboutus-card{
+    background-image: url(./assets/interior-designer-working-with-young-couple.jpg);
+    background-size: cover;
+    background-color: blue;      
+    display: grid;
+}
+.align-text-baseline{
+    display: flex;
+    align-items: flex-end;
+}
+.trasparent-bg {
+    position: relative;
+}
+
+.trasparent-bg::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: url('/assets/articleimg1.jpg');
+    opacity: .4;
+    content: "";
+    z-index: -1;
+}
